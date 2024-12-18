@@ -791,8 +791,8 @@ section,
   cursor: pointer;
   display: inline-block;
   padding: 0;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 20px;
+  font-weight: 1000;
   margin: 0 10px;
   line-height: 1;
   text-transform: uppercase;
@@ -803,6 +803,11 @@ section,
 .portfolio .portfolio-filters li:hover,
 .portfolio .portfolio-filters li.filter-active {
   color: var(--accent-color);
+  
+} 
+.portfolio .portfolio-filters li.filter-active{
+margin-bottom:20px;
+padding:0;
 }
 
 .portfolio .portfolio-filters li:first-child {
