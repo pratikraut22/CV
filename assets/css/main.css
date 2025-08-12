@@ -825,11 +825,6 @@ padding:0;
     
   }
 }
-@media (max-width: 320px) {
-  .hero{
-    min-height: 30vh;
-  }
-}
 
 .portfolio .portfolio-content {
   position: relative;
